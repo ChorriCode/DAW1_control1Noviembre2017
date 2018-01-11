@@ -8,8 +8,7 @@ public class Operaciones {
 		public void mostrarObjetosArray(Object [] array) {  //Método que recibi un array de objetos e imprime los atributos de cada uno de ellos.
 			for (int i = 0; i < array.length; i++) { // los atributos y valores de cada uno de los objetos que contine el array.
 				System.out.println(array[i].toString()); 			
-			}
-			
+			}			
 		}
 		
 		public Vehiculo [] compactarArray(Vehiculo [] datos) {
